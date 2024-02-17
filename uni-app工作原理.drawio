@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T09:12:52.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TKr4J-_E533Yxdp7mWyv" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-17T10:16:16.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="D9a5bOBrnSLooLbeb0BC" version="23.1.5" type="github">
   <diagram name="第 1 页" id="VhYEXJCIh0dUP2hENQbA">
-    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,6 +57,84 @@
         </mxCell>
         <mxCell id="AQghNncrj6RQpkFnAqps-21" value="打包" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="272.25" y="416.4" width="53.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-24" target="AQghNncrj6RQpkFnAqps-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-24" value="JS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="296.4" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-25" target="AQghNncrj6RQpkFnAqps-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-25" target="AQghNncrj6RQpkFnAqps-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="615" />
+              <mxPoint x="620" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-25" value="JS代码&lt;br&gt;JS Engine&lt;br&gt;JSBridge&lt;br&gt;Uni 组件&lt;br&gt;第三方组件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400.25" y="460" width="106.5" height="103.6" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-27" target="AQghNncrj6RQpkFnAqps-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-27" target="AQghNncrj6RQpkFnAqps-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-27" value="表现层代码&lt;br&gt;运行于&lt;br&gt;WebView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280.25" y="665.4" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-29" target="AQghNncrj6RQpkFnAqps-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-32" value="进程间通信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AQghNncrj6RQpkFnAqps-31">
+          <mxGeometry x="-0.0538" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-29" target="AQghNncrj6RQpkFnAqps-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-29" value="逻辑层代码&lt;br&gt;运行于&lt;br&gt;JSEngine&lt;br&gt;JSBridge" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="665.4" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-41" value="IOS/Android原生API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="1000" width="489.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-48" target="AQghNncrj6RQpkFnAqps-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-56" value="表现层直接调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AQghNncrj6RQpkFnAqps-51">
+          <mxGeometry x="0.2349" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-48" value="可选&lt;br&gt;RenderJS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280.25" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-50" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="272.25" y="860" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AQghNncrj6RQpkFnAqps-50">
+          <mxGeometry width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-35" value="内置原生组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AQghNncrj6RQpkFnAqps-50">
+          <mxGeometry x="32.94" y="20" width="99.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-36" value="Uni组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AQghNncrj6RQpkFnAqps-50">
+          <mxGeometry x="142.56" y="20" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-37" value="第三方组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AQghNncrj6RQpkFnAqps-50">
+          <mxGeometry x="262.55999999999995" y="20" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-45" value="NativeJS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AQghNncrj6RQpkFnAqps-50">
+          <mxGeometry x="382.55999999999995" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-49" target="AQghNncrj6RQpkFnAqps-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
