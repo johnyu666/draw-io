@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T08:56:53.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.5" etag="c194EmMBPODeB2Lr7u8t" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-17T09:12:52.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TKr4J-_E533Yxdp7mWyv" version="23.1.5" type="github">
   <diagram name="第 1 页" id="VhYEXJCIh0dUP2hENQbA">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AQghNncrj6RQpkFnAqps-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-1" target="AQghNncrj6RQpkFnAqps-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;.vue的源代码&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="50" width="690" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-2" target="AQghNncrj6RQpkFnAqps-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-2" target="AQghNncrj6RQpkFnAqps-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="245" />
+              <mxPoint x="456" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-2" value="编译器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="170" width="625" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-6" target="AQghNncrj6RQpkFnAqps-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-6" value="HTML&lt;br&gt;CSS&lt;br&gt;JS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-8" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
+          <mxGeometry x="135.2" y="509" width="74.8" height="75.4" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-11" target="AQghNncrj6RQpkFnAqps-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-11" value="WXML&lt;br&gt;WXSS&lt;br&gt;JS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269.75" y="296.4" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/socialcones/508/WeChat-128.png" vertex="1" parent="1">
+          <mxGeometry x="260" y="506.4" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-16" value="打包" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="420" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="AQghNncrj6RQpkFnAqps-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="470" as="sourcePoint" />
+            <mxPoint x="220" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQghNncrj6RQpkFnAqps-21" target="AQghNncrj6RQpkFnAqps-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQghNncrj6RQpkFnAqps-21" value="打包" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272.25" y="416.4" width="53.5" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
